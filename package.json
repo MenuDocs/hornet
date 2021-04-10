@@ -1,0 +1,14 @@
+{
+  "name": "hornet",
+  "version": "0.0.1",
+  "description": "A generic discord bot framework",
+  "main": "dist/index.js",
+  "repository": "git@github.com:MenuDocs/hornet.git",
+  "author": "MenuDocs",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint": "^7.24.0"
+  }
+}
