@@ -1,0 +1,25 @@
+{
+  "name": "hornet",
+  "version": "0.0.1",
+  "description": "A generic discord bot framework",
+  "main": "dist/index.js",
+  "repository": "git@github.com:MenuDocs/hornet.git",
+  "author": "MenuDocs",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./dist && tsc -p .",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  }
+}

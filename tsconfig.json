@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "sourceMap": true,
+      "lib": [
+        "ESNext",
+        "ESNext.Array",
+        "ESNext.AsyncIterable",
+        "ESNext.Intl",
+        "ESNext.Symbol"
+      ],
+      "target": "ES2019",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "esModuleInterop": true,
+      "declaration": false,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+    },
+    "exclude": ["node_modules", "dist"]
+  }
